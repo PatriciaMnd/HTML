@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram</title>
+    <style>
+        img{
+            font-size: 30%
+        }
+        div{
+            /*border: 1px solid black;*/
+        }
+        .top-container{
+            background-color: white;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 30%;
+            height: 60vh;
+            width: 40vw;
+        }
+        .inner-container {
+            padding: 30%;
+        }
+        label{
+            margin-bottom: 20px;
+            display:block;
+        }
+        input[type="text"]{
+            padding:7px 3px;
+        }
+        input[type="password"]{
+            padding:7px 3px;
+        }
+        button{
+            background-color: #00c4ff;
+            text-align: center;
+            padding: 10px 65px;
+            border-radius: 8px;
+            border-color: #00c4ff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <div class="top-container">
+        <img src="https://raw.githubusercontent.com/dianaklr/March-2024/master/HW/HW_4/img.png" alt="photo">
+        <div class="inner-container">
+        <label>
+            <input type="text" name="username" placeholder="Номер телефону, ім'я користувача або електронна пошта" required>
+        </label>
+        <label>
+        <input type="password" name="password" placeholder="Пароль" required>
+        </label>
+        <label>
+        <button>Увійти</button>
+        </label>
+        </div>
+        </div>
+</form>
+</body>
+</html>
