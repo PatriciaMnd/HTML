@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+.block{
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block1{
+    background-color: white;
+    height: 39vh;
+    width: 50vw;
+    display:flex;
+}
+img{
+    height: auto;
+    width: 170px;
+    float: left;
+}
+.block1_2{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:25px 30px;
+}
+h2,p{
+    font-size: 10px;
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    border-radius: 2px;
+    padding: 2px 19px;
+}
