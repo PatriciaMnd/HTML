@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+#part3{
+    background-image: url("Rectangle_4_(5).png");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left,.middle,.right{
+    background-color:rgba(83, 83, 83, 0.40);
+    width: 30vw;
+    height: 68vh;
+    margin: 10vh 3vw;
+}
+.left>img{
+   margin:4%;
+}
+h2,p{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+}
