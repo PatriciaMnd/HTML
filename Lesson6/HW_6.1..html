@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+        }
+        nav, header, section{
+            margin-bottom: 5px;
+        }
+nav>div{
+    background-color: lightskyblue;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+}
+nav{
+    display: grid;
+    height: 10vh;
+    grid-template-columns: 10vw 10vw 10vw 10vw;
+    grid-template-rows: 10vh;
+    grid-gap: 2vh;
+    justify-content: flex-start;
+}
+header{
+    background-color:lightskyblue;
+    border-radius: 10px;
+    height: 36vh;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+section>div{
+    background-color: lightskyblue;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius:10px;
+}
+section{
+    height: 36vh;
+    display: grid;
+    grid-template-columns: 49.5vw 49.5vw;
+    grid-gap: 2vh;
+    justify-content: center;
+}
+footer{
+    background-color:lightskyblue;
+    /*border: 2px solid white;*/
+    border-radius: 10px;
+    height: 10vh;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+    </style>
+</head>
+<body>
+<nav>
+        <div class="navigation1"><span>Link1</span></div>
+        <div class="navigation2"><span>Link2</span></div>
+        <div class="navigation3"><span>Link3</span></div>
+        <div class="navigation4"><span>Link4</span></div>
+</nav>
+<header>Header</header>
+<section>
+    <div><span>Article1</span></div>
+    <div><span>Article2</span></div>
+    <div><span>Article3</span></div>
+    <div><span>Article4</span></div>
+</section>
+<footer>Footer</footer>
+</body>
+</html>
